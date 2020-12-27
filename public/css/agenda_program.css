@@ -1,0 +1,75 @@
+/* Agenda + Programme */
+
+#programme .card-title{
+    color: var(--color3);
+}
+    
+#programme-header,#agenda-header
+{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#programme .btn ,#agenda-header .btn
+{
+    background-color: var(--color3);
+    color: #FFF;
+    font-size: 1rem;
+}
+
+ .programme-title,.agenda-title
+{
+    color:var(--color3);
+    text-align:right;
+    margin-top:1rem;
+    font-size:1.5rem;
+}
+
+#agenda .card-header
+{
+  font-size: 1rem;
+  text-align: right;
+
+}
+#agenda .card-body
+{
+  text-align: right;
+}
+
+#agenda .card:nth-child(odd) .card-header
+{
+  color: #A5C724;
+}
+#agenda .card:nth-child(even) .card-header
+{
+  color: #EE7419;
+}
+#agenda .card-text
+{
+  text-decoration: none;
+  color: #000;
+}
+#agenda .card-body{
+  height: 88px !important;
+}
+#programme .item-a .row , #programme .item-a .card ,#programme .item-a .card .card-body
+{
+  height: 100% !important;
+}
+#programme .item-a .card .card-body{
+  display: flex !important;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+@media(min-width:1200px)
+{
+  #programme .item-a{
+      height:400px !important;
+  }
+}
+#agenda .card{
+  border-radius: 0 !important;
+} 
